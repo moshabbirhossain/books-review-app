@@ -26,39 +26,39 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <Link to={'/'} className="font-bold">
+                        <Link to={'/'} className="font-bold text-lg">
                             Home
                         </Link>
 
-                        <Link to={'/listedBooks'} className="font-bold">
+                        <Link to={'/listedBooks'} className="font-bold text-lg">
                             Listed Books
                         </Link>
 
-                        <Link to={'/pagedToRead'} className="font-bold">
+                        <Link to={'/pagedToRead'} className="font-bold text-lg">
                             Pages to Read
                         </Link>
                     </ul>
                 </div>
-                <Link to={'/'} className="text-4xl font-bold">Book Vibe</Link>
+                <Link to={'/'} className="text-4xl font-bold text-[#23be0a] hover:text-[#20cf05]">Book Vibe</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal items-center gap-4">
-                    <NavLink to={'/'} className={({isActive}) => isActive? 'border-2 border-lime-500 rounded-lg px-5 py-3 hover:bg-white text-lime-500 font-bold' : 'border-0 px-6 py-3 font-semibold'}>
+                    <NavLink to={'/'} className={({isActive}) => isActive? 'border-2 border-lime-500 rounded-lg px-5 py-3 hover:bg-white text-lime-500 font-bold text-lg' : 'text-lg border-0 px-6 py-3 font-semibold'}>
                         Home
                     </NavLink>
 
-                    <NavLink to={'/listedBooks'} className={({isActive}) => isActive? 'border-2 border-lime-500 rounded-lg px-5 py-3 hover:bg-white text-lime-500 font-bold' : 'border-0 px-6 py-3 font-semibold'}>
+                    <NavLink to={'/listedBooks'} className={({isActive}) => isActive? 'border-2 border-lime-500 rounded-lg px-5 py-3 hover:bg-white text-lime-500 font-bold text-lg' : 'text-lg border-0 px-6 py-3 font-semibold'}>
                         Listed Books
                     </NavLink>
 
-                    <NavLink to={'/pagesToRead'} className={({isActive}) => isActive? 'border-2 border-lime-500 rounded-lg px-5 py-3 hover:bg-white text-lime-500 font-bold' : 'border-0 px-6 py-3 font-semibold'}>
+                    <NavLink to={'/pagesToRead'} className={({isActive}) => isActive? 'border-2 border-lime-500 rounded-lg px-5 py-3 hover:bg-white text-lime-500 font-bold text-lg' : 'text-lg border-0 px-6 py-3 font-semibold'}>
                         Pages to Read
                     </NavLink>
                 </ul>
             </div>
             <div className="navbar-end gap-4">
-                <a className="btn bg-lime-500 hover:bg-lime-500 text-white">Sign In</a>
-                <a className="btn btn-accent text-white">Sign Up</a>
+                <a className="btn bg-[#23be0a] hover:border-[#23be0a] hover:bg-white hover:text-black text-white text-base font-bold">Sign In</a>
+                <a className="btn btn-accent text-white hover:bg-white hover:text-black text-base font-bold">Sign Up</a>
             </div>
         </div>
     );

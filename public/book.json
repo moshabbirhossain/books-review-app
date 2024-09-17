@@ -1,182 +1,158 @@
-{
-    "books": [
-        {
-            "id": 1,
-            "name": "To Kill a Mockingbird",
-            "author": "Harper Lee",
-            "image": "https://i.ibb.co/wd11yk8/9780434020485-jacket-large.jpg",
-            "review": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. Instantly successful, widely read in high schools and middle schools in the United States, it has become a classic of modern American literature, winning the Pulitzer Prize. The plot and characters are loosely based on Lee's observations of her family, her neighbors and an event that occurred near her hometown of Monroeville, Alabama, in 1936, when she was 10 years old. The novel is renowned for its warmth and humor, despite dealing with serious issues of rape and racial inequality.",
-            "totalPages": 324,
-            "rating": 4.9,
-            "category": "Fiction",
-            "tags": [
-                "Classic",
-                "Historical",
-                "Legal"
-            ],
-            "publisher": "J.B. Lippincott & Co.",
-            "yearOfPublishing": 1960
-        },
-        {
-            "id": 2,
-            "name": "1984",
-            "author": "George Orwell",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg",
-            "review": "1984, George Orwell’s bleakly dystopian novel about the dangers of totalitarianism, warns against a world governed by propaganda, surveillance, and censorship. The novel introduces the concept of Big Brother, the all-seeing leader of the Party that rules the nation of Oceania with an iron fist. Orwell’s novel is a profound, terrifying, and wholly fascinating read. It has remained a compelling vision of a totalitarian world and its harrowing impact on the human spirit.",
-            "totalPages": 328,
-            "rating": 4.7,
-            "category": "Dystopian",
-            "tags": [
-                "Political Fiction",
-                "Science Fiction"
-            ],
-            "publisher": "Secker & Warburg",
-            "yearOfPublishing": 1949
-        },
-        {
-            "id": 3,
-            "name": "The Great Gatsby",
-            "author": "F. Scott Fitzgerald",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg",
-            "review": "The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career. First published in 1925, this quintessential novel of the Jazz Age has been acclaimed by generations of readers. The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island, is an exquisitely crafted tale of America in the 1920s. The Great Gatsby is one of the great classics of twentieth-century literature.",
-            "totalPages": 180,
-            "rating": 4.4,
-            "category": "Classic",
-            "tags": [
-                "American Literature",
-                "Romance"
-            ],
-            "publisher": "Charles Scribner's Sons",
-            "yearOfPublishing": 1925
-        },
-        {
-            "id": 4,
-            "name": "Moby Dick",
-            "author": "Herman Melville",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/81prVg6Xg7L.jpg",
-            "review": "Moby Dick, written by Herman Melville, is a thrilling adventure of a whaling ship and its crew, led by the obsessive Captain Ahab who seeks revenge on the great white whale, Moby Dick. Published in 1851, the novel is a masterpiece of American Romanticism, exploring themes of humanity, fate, and the sublime. Its rich narrative and complex characters have captivated readers for generations. The epic tale is both a profound philosophical inquiry and a gripping sea adventure.",
-            "totalPages": 635,
-            "rating": 4.2,
-            "category": "Adventure",
-            "tags": ["Maritime", "Classic"],
-            "publisher": "Harper & Brothers",
-            "yearOfPublishing": 1851
-        },
-        {
-            "id": 5,
-            "name": "Pride and Prejudice",
-            "author": "Jane Austen",
-            "image": "https://m.media-amazon.com/images/I/51b5YG6Y1rL.jpg",
-            "review": "Pride and Prejudice by Jane Austen is a romantic novel that also serves as a critique of the British landed gentry at the end of the 18th century. The novel charts the emotional development of the protagonist, Elizabeth Bennet, who learns the error of making hasty judgments and comes to appreciate the difference between the superficial and the essential. Its humor lies in its honest depiction of manners, education, marriage, and money during the Regency era in Britain. The narrative vividly portrays the life and values of its time, while the character of Elizabeth Bennet, with her intelligence and wit, stands out as a feminist icon of her era. The novel remains a beloved classic, celebrated for its keen observation of human nature, engaging storytelling, and timeless romance.",
-            "totalPages": 279,
-            "rating": 4.8,
-            "category": "Classic",
-            "tags": [
-                "Romance",
-                "Social Commentary"
-            ],
-            "publisher": "T. Egerton, Whitehall",
-            "yearOfPublishing": 1813
-        },
-        {
-            "id": 6,
-            "name": "The Catcher in the Rye",
-            "author": "J.D. Salinger",
-            "image": "https://i.ibb.co/Zf8W3jF/Moby-Dick-or-the-Whale.jpg",
-            "review": "The Catcher in the Rye is a novel by J.D. Salinger, partially published in serial form in 1945-1946 and as a novel in 1951. The novel's protagonist Holden Caulfield has become an icon for teenage rebellion. The novel also deals with complex issues of innocence, identity, belonging, loss, and connection. Written with the sharp wit and disarming honesty for which Salinger became renowned, this novel remains a profound and compelling work that continues to captivate and provoke readers, both young and old.",
-            "totalPages": 277,
-            "rating": 4.3,
-            "category": "Fiction",
-            "tags": ["Classic", "Coming-of-Age"],
-            "publisher": "Little, Brown and Company",
-            "yearOfPublishing": 1951
-        },
-        {
-            "id": 7,
-            "name": "Brave New World",
-            "author": "Aldous Huxley",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/81Kc8jwOeXL.jpg",
-            "review": "Brave New World, a novel by Aldous Huxley, presents a futuristic dystopian world where the government controls society through technology and conditioning. The novel explores the impact of science and technology on human life and individuality. Huxley's vision is both disturbing and thought-provoking, offering a critical look at a world where human freedom and individuality are sacrificed for the sake of social stability and technological progress. The novel remains a powerful and relevant critique of modern society.",
-            "totalPages": 268,
-            "rating": 4.5,
-            "category": "Dystopian",
-            "tags": [
-                "Science Fiction",
-                "Philosophical"
-            ],
-            "publisher": "Chatto & Windus",
-            "yearOfPublishing": 1932
-        },
-        {
-            "id": 8,
-            "name": "The Hobbit",
-            "author": "J.R.R. Tolkien",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg",
-            "review": "The Hobbit is a fantasy novel by J.R.R. Tolkien, which serves as a prelude to his more famous work, The Lord of the Rings. The story follows the adventures of Bilbo Baggins, a hobbit who is reluctantly swept into a quest to reclaim a treasure guarded by the dragon Smaug. The novel is filled with rich, imaginative details and memorable characters, making it a beloved classic of fantasy literature. Its themes of bravery, friendship, and the quest for home resonate with readers of all ages.",
-            "totalPages": 310,
-            "rating": 4.7,
-            "category": "Fantasy",
-            "tags": ["Adventure", "Epic"],
-            "publisher": "George Allen & Unwin",
-            "yearOfPublishing": 1937
-        },
-        {
-            "id": 9,
-            "name": "War and Peace",
-            "author": "Leo Tolstoy",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/91wM4EIlzKL.jpg",
-            "review": "War and Peace by Leo Tolstoy is an epic novel that intertwines the lives of private and public individuals during the time of the Napoleonic wars and the French invasion of Russia. The novel is known for its masterful depiction of the complex interplay of history and individual lives, as well as its philosophical depth. Tolstoy's exploration of themes such as love, fate, and the nature of power makes War and Peace one of the greatest works of literature ever written. Its rich, detailed narrative and profound insights continue to captivate readers worldwide.",
-            "totalPages": 1225,
-            "rating": 4.8,
-            "category": "Historical Fiction",
-            "tags": ["Epic", "Philosophical"],
-            "publisher": "The Russian Messenger",
-            "yearOfPublishing": 1869
-        },
-        {
-            "id": 10,
-            "name": "Crime and Punishment",
-            "author": "Fyodor Dostoevsky",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/81uW4PZlA4L.jpg",
-            "review": "Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in 1866. The novel is often cited as one of the supreme achievements in literature. The story focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her money. The narrative explores themes of guilt, redemption, and the struggle between good and evil. Dostoevsky's profound psychological insight into his characters and his philosophical exploration of crime and punishment have made this work a timeless classic.",
-            "totalPages": 671,
-            "rating": 4.6,
-            "category": "Philosophical Fiction",
-            "tags": [
-                "Psychological",
-                "Moral Dilemma"
-            ],
-            "publisher": "The Russian Messenger",
-            "yearOfPublishing": 1866
-        },
-        {
-            "id": 11,
-            "name": "Jane Eyre",
-            "author": "Charlotte Brontë",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/71abFPdmMHL.jpg",
-            "review": "Jane Eyre, written by Charlotte Brontë, is a classic novel of the Gothic genre that explores themes of love, morality, and social class. The story follows the experiences of the titular character, an orphaned girl who becomes a governess and falls in love with her employer, Mr. Rochester. The novel is celebrated for its strong, complex characters and its exploration of the inner lives of women. Brontë's rich prose and the novel's intense emotional depth have made Jane Eyre a favorite among readers for over 150 years.",
-            "totalPages": 500,
-            "rating": 4.7,
-            "category": "Classic",
-            "tags": ["Gothic", "Romance"],
-            "publisher": "Smith, Elder & Co.",
-            "yearOfPublishing": 1847
-        },
-        {
-            "id": 12,
-            "name": "The Picture of Dorian Gray",
-            "author": "Oscar Wilde",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/81e4zF4BpmL.jpg",
-            "review": "The Picture of Dorian Gray by Oscar Wilde is a philosophical novel that delves into themes of aestheticism, moral duplicity, and the nature of beauty. The novel tells the story of a young man, Dorian Gray, who sells his soul to ensure that his portrait ages while he remains forever young and beautiful. Wilde's novel is noted for its brilliant wit, rich prose, and its chilling exploration of vanity and moral corruption. The Picture of Dorian Gray remains a haunting and thought-provoking read that continues to resonate with readers today.",
-            "totalPages": 254,
-            "rating": 4.5,
-            "category": "Philosophical Fiction",
-            "tags": [
-                "Gothic",
-                "Moral Corruption"
-            ],
-            "publisher": "Ward, Lock & Co.",
-            "yearOfPublishing": 1890
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "name": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/wd11yk8/9780434020485-jacket-large.jpg",
+        "review": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. Instantly successful, widely read in high schools and middle schools in the United States, it has become a classic of modern American literature, winning the Pulitzer Prize. The plot and characters are loosely based on Lee's observations of her family, her neighbors and an event that occurred near her hometown of Monroeville, Alabama, in 1936, when she was 10 years old. The novel is renowned for its warmth and humor, despite dealing with serious issues of rape and racial inequality.",
+        "totalPages": 324,
+        "rating": 4.9,
+        "category": "Fiction",
+        "tags": ["Classic", "Historical", "Legal"],
+        "publisher": "J.B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "id": 2,
+        "name": "1984",
+        "author": "George Orwell",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg",
+        "review": "1984, George Orwell’s bleakly dystopian novel about the dangers of totalitarianism, warns against a world governed by propaganda, surveillance, and censorship. The novel introduces the concept of Big Brother, the all-seeing leader of the Party that rules the nation of Oceania with an iron fist. Orwell’s novel is a profound, terrifying, and wholly fascinating read. It has remained a compelling vision of a totalitarian world and its harrowing impact on the human spirit.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Dystopian",
+        "tags": ["Political Fiction", "Science Fiction"],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "id": 3,
+        "name": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg",
+        "review": "The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career. First published in 1925, this quintessential novel of the Jazz Age has been acclaimed by generations of readers. The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan, of lavish parties on Long Island, is an exquisitely crafted tale of America in the 1920s. The Great Gatsby is one of the great classics of twentieth-century literature.",
+        "totalPages": 180,
+        "rating": 4.4,
+        "category": "Classic",
+        "tags": ["American Literature", "Romance"],
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925
+    },
+    {
+        "id": 4,
+        "name": "Moby Dick",
+        "author": "Herman Melville",
+        "image": "https://i.ibb.co/Zf8W3jF/Moby-Dick-or-the-Whale.jpg",
+        "review": "Moby Dick, written by Herman Melville, is a thrilling adventure of a whaling ship and its crew, led by the obsessive Captain Ahab who seeks revenge on the great white whale, Moby Dick. Published in 1851, the novel is a masterpiece of American Romanticism, exploring themes of humanity, fate, and the sublime. Its rich narrative and complex characters have captivated readers for generations. The epic tale is both a profound philosophical inquiry and a gripping sea adventure.",
+        "totalPages": 635,
+        "rating": 4.2,
+        "category": "Adventure",
+        "tags": ["Maritime", "Classic"],
+        "publisher": "Harper & Brothers",
+        "yearOfPublishing": 1851
+    },
+    {
+        "id": 5,
+        "name": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://m.media-amazon.com/images/I/51b5YG6Y1rL.jpg",
+        "review": "Pride and Prejudice by Jane Austen is a romantic novel that also serves as a critique of the British landed gentry at the end of the 18th century. The novel charts the emotional development of the protagonist, Elizabeth Bennet, who learns the error of making hasty judgments and comes to appreciate the difference between the superficial and the essential. Its humor lies in its honest depiction of manners, education, marriage, and money during the Regency era in Britain. The narrative vividly portrays the life and values of its time, while the character of Elizabeth Bennet, with her intelligence and wit, stands out as a feminist icon of her era. The novel remains a beloved classic, celebrated for its keen observation of human nature, engaging storytelling, and timeless romance.",
+        "totalPages": 279,
+        "rating": 4.8,
+        "category": "Classic",
+        "tags": ["Romance", "Social Commentary"],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "id": 6,
+        "name": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co.com/br5G2PQ/images-q-tbn-ANd9-Gc-Qr-P9ww00-Cevvq6-Lv-Ov8-H4-Dw-YUFh-S6f-RZBZRQ-s.jpg",
+        "review": "The Catcher in the Rye is a novel by J.D. Salinger, partially published in serial form in 1945-1946 and as a novel in 1951. The novel's protagonist Holden Caulfield has become an icon for teenage rebellion. The novel also deals with complex issues of innocence, identity, belonging, loss, and connection. Written with the sharp wit and disarming honesty for which Salinger became renowned, this novel remains a profound and compelling work that continues to captivate and provoke readers, both young and old.",
+        "totalPages": 277,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": ["Classic", "Coming-of-Age"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "id": 7,
+        "name": "Brave New World",
+        "author": "Aldous Huxley",
+        "image": "https://i.ibb.co.com/TTJ8ZPp/images-q-tbn-ANd9-Gc-SPh3-tkj-CU1d-Xakwn-M-Fk-Abde-XNqv91-Q2o-A-s.jpg",
+        "review": "Brave New World, a novel by Aldous Huxley, presents a futuristic dystopian world where the government controls society through technology and conditioning. The novel explores the impact of science and technology on human life and individuality. Huxley's vision is both disturbing and thought-provoking, offering a critical look at a world where human freedom and individuality are sacrificed for the sake of social stability and technological progress. The novel remains a powerful and relevant critique of modern society.",
+        "totalPages": 268,
+        "rating": 4.5,
+        "category": "Dystopian",
+        "tags": ["Science Fiction", "Philosophical"],
+        "publisher": "Chatto & Windus",
+        "yearOfPublishing": 1932
+    },
+    {
+        "id": 8,
+        "name": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg",
+        "review": "The Hobbit is a fantasy novel by J.R.R. Tolkien, which serves as a prelude to his more famous work, The Lord of the Rings. The story follows the adventures of Bilbo Baggins, a hobbit who is reluctantly swept into a quest to reclaim a treasure guarded by the dragon Smaug. The novel is filled with rich, imaginative details and memorable characters, making it a beloved classic of fantasy literature. Its themes of bravery, friendship, and the quest for home resonate with readers of all ages.",
+        "totalPages": 310,
+        "rating": 4.7,
+        "category": "Fantasy",
+        "tags": ["Adventure", "Epic"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "id": 9,
+        "name": "War and Peace",
+        "author": "Leo Tolstoy",
+        "image": "https://i.ibb.co.com/wNGr0F7/War-and-Peace.png",
+        "review": "War and Peace by Leo Tolstoy is an epic novel that intertwines the lives of private and public individuals during the time of the Napoleonic wars and the French invasion of Russia. The novel is known for its masterful depiction of the complex interplay of history and individual lives, as well as its philosophical depth. Tolstoy's exploration of themes such as love, fate, and the nature of power makes War and Peace one of the greatest works of literature ever written. Its rich, detailed narrative and profound insights continue to captivate readers worldwide.",
+        "totalPages": 1225,
+        "rating": 4.8,
+        "category": "Historical Fiction",
+        "tags": ["Epic", "Philosophical"],
+        "publisher": "The Russian Messenger",
+        "yearOfPublishing": 1869
+    },
+    {
+        "id": 10,
+        "name": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "image": "https://i.ibb.co.com/Ws7VTny/crime-and-punishment.png",
+        "review": "Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in 1866. The novel is often cited as one of the supreme achievements in literature. The story focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her money. The narrative explores themes of guilt, redemption, and the struggle between good and evil. Dostoevsky's profound psychological insight into his characters and his philosophical exploration of crime and punishment have made this work a timeless classic.",
+        "totalPages": 671,
+        "rating": 4.6,
+        "category": "Philosophical Fiction",
+        "tags": ["Psychological", "Moral Dilemma"],
+        "publisher": "The Russian Messenger",
+        "yearOfPublishing": 1866
+    },
+    {
+        "id": 11,
+        "name": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "image": "https://i.ibb.co.com/74WNhq8/eyre.png",
+        "review": "Jane Eyre, written by Charlotte Brontë, is a classic novel of the Gothic genre that explores themes of love, morality, and social class. The story follows the experiences of the titular character, an orphaned girl who becomes a governess and falls in love with her employer, Mr. Rochester. The novel is celebrated for its strong, complex characters and its exploration of the inner lives of women. Brontë's rich prose and the novel's intense emotional depth have made Jane Eyre a favorite among readers for over 150 years.",
+        "totalPages": 500,
+        "rating": 4.7,
+        "category": "Classic",
+        "tags": ["Gothic", "Romance"],
+        "publisher": "Smith, Elder & Co.",
+        "yearOfPublishing": 1847
+    },
+    {
+        "id": 12,
+        "name": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "image": "https://i.ibb.co.com/bJzL4Px/gray.png",
+        "review": "The Picture of Dorian Gray by Oscar Wilde is a philosophical novel that delves into themes of aestheticism, moral duplicity, and the nature of beauty. The novel tells the story of a young man, Dorian Gray, who sells his soul to ensure that his portrait ages while he remains forever young and beautiful. Wilde's novel is noted for its brilliant wit, rich prose, and its chilling exploration of vanity and moral corruption. The Picture of Dorian Gray remains a haunting and thought-provoking read that continues to resonate with readers today.",
+        "totalPages": 254,
+        "rating": 4.5,
+        "category": "Philosophical Fiction",
+        "tags": ["Gothic", "Moral Corruption"],
+        "publisher": "Ward, Lock & Co.",
+        "yearOfPublishing": 1890
+    }
+]

@@ -10,13 +10,13 @@ const Hero = () => {
                     </h1>
                     <Link
                         to={"/listedBooks"}
-                        className="btn text-white bg-lime-500 hover:bg-lime-500">
+                        className="btn text-white text-lg font-bold bg-[#23be0a] hover:bg-[#20cf05]">
                         View The List
                     </Link>
                 </div>
                 <div className="w-1/2 p-16">
                     <img
-                        src="/images/Cover.png"
+                        src="https://i.ibb.co.com/b6RpKnj/gray-removebg.png"
                         alt=""
                         className="h-96"
                     />

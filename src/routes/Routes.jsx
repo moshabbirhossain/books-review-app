@@ -4,6 +4,8 @@ import Home from "../pages/Home/Home.jsx";
 import ListedBooks from "../pages/ListedBooks/ListedBooks.jsx";
 import PagesToRead from "../pages/PagesToRead/PagesToRead.jsx";
 import Book from "../pages/Book/Book.jsx"
+import Read from "../pages/ReadBooks/Read.jsx";
+import Wishlist from "../pages/WishlistBooks/Wishlist.jsx";
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -15,17 +17,43 @@ export const router = createBrowserRouter([
                 // tech-2
                 index: true,
                 element: <Home />,
-                loader: () => 
-                    fetch("http://localhost:4000/books"),
+                loader: () => fetch("/book.json"),
             },
             {
                 path: '/book/:id',
                 element: <Book />,
-                loader: ({ params }) => fetch(`http://localhost:4000/books/${params.id}`),
+                loader: () => fetch('/book.json'),
+                // children: [
+                //     {
+                //         index: true,
+                //         element: <Read />,
+                //         loader: () => fetch('/book.json'),
+                //     },
+                //     {
+                //         path: 'wishlist',
+                //         element: <Wishlist />,
+                //         loader: () =>  fetch('/book.json'),
+
+                //     },
+                // ],
             },
             {
                 path: "/listedBooks",
                 element: <ListedBooks />,
+                // loader: () => fetch("/book.json"),
+                children: [
+                    {
+                        index: true,
+                        element: <Read />,
+                        loader: () => fetch('/book.json'),
+                    },
+                    {
+                        path: 'wishlist',
+                        element: <Wishlist />,
+                        loader: () =>  fetch('/book.json'),
+
+                    },
+                ],
             },
             {
                 path: "/pagesToRead",
@@ -34,4 +62,3 @@ export const router = createBrowserRouter([
         ],
     },
 ]);
-import book from '../../public/book.json'
