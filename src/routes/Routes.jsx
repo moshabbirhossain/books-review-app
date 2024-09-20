@@ -3,13 +3,15 @@ import MainLayout from "../layout/MainLayout.jsx";
 import Home from "../pages/Home/Home.jsx";
 import ListedBooks from "../pages/ListedBooks/ListedBooks.jsx";
 import PagesToRead from "../pages/PagesToRead/PagesToRead.jsx";
-import Book from "../pages/Book/Book.jsx"
+import Book from "../pages/BookDetails/BookDetails.jsx"
 import Read from "../pages/ReadBooks/Read.jsx";
 import Wishlist from "../pages/WishlistBooks/Wishlist.jsx";
+import ErrorPage from "../pages/ErrorPage/ErrorPage.jsx";
 export const router = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout />,
+        // errorElement: <ErrorPage/>,
         children: [
             {
                 // tech-1

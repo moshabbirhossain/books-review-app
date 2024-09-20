@@ -1,28 +1,48 @@
-import { useState } from "react";
-import { Link, Outlet, useLoaderData } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, Outlet } from "react-router-dom";
+import Read from "../ReadBooks/Read";
 
 const ListedBooks = () => {
     const [tabIndex, setTabIndex] = useState(0);
-    // const listedDatas = useLoaderData();
+    const [list, setList] = useState([]);
+    useEffect(() => {
+        fetch('/book.json')
+        .then(response => response.json())
+        .then(data =>  setList(data))
+    }, [])
+    const handleFilterData = (filter) => {
+        let sortedData = [...list];
+        if (filter === 'rating') {
+            sortedData.sort((a, b) => b.rating - a.rating);
+        }
+        else if (filter === 'pages') {
+            sortedData.sort((a, b) => b.totalPages - a.totalPages);
+        }
+        else if (filter === 'publishedYear') {
+            sortedData.sort((a, b) => b.yearOfPublishing - a.yearOfPublishing);
+        }
+        // console.log('sorted data:', sortedData)
+        setList(sortedData);
+    }
     return (
         <div className="">
             <div className="border bg-base-200 rounded-2xl text-center text-3xl font-bold py-8 text-black">
                 Books
             </div>
             <div className="flex justify-center my-12">
-                <ul className="menu my-6 text-white font-bold bg-[#23be0a] w-40 rounded-box">
+                <ul className="menu my-6 text-white font-bold bg-[#23be0a] w-48 rounded-box">
                 <li>
                     <details>
                         <summary>Sort By: </summary>
                         <ul>
-                            <li>
-                                Rating
+                            <li onClick={()=> handleFilterData('rating')}>
+                                <button>Rating</button>
                             </li>
-                            <li>
-                                Number of pages
+                            <li onClick={()=>handleFilterData('pages')}>
+                                <button>Number of pages</button>
                             </li>
-                            <li>
-                                Publisher year
+                            <li onClick={()=>handleFilterData('publishedYear')}>
+                                <button>Publisher year</button>
                             </li>
                         </ul>
                     </details>
@@ -43,7 +63,8 @@ const ListedBooks = () => {
             {/* {
                 listedDatas.map((listedData) =>( <Outlet key={listedData.id} listedData={listedData}/> ))
             } */}
-            <Outlet />
+            {/* <Read book={book} /> */}
+            <Outlet context={{list}}/>
         </div>
     );
 };

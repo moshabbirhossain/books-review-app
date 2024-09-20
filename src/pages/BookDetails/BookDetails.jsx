@@ -1,19 +1,17 @@
 import { useState } from "react";
 import { Link, Outlet, useLoaderData, useParams } from "react-router-dom";
+import { saveReadBook, saveWishlistBook } from "../../utils/handleBookData/localstorage";
 
-const Book = () => {
+const BookDetails = () => {
     const books = useLoaderData();
-    const [read, setRead] =  useState([]);
-
-    // console.log(books);
     const { id } = useParams();
     const book = books.find( book => book.id==id );
-    
-    const handleReadData = (book) => {
-        // const isExist = 
-        setRead([...read, book]);
+    const handleReadData = () => {
+        saveReadBook(parseInt(id))
     };
-    // console.log(book);
+    const handleWishlistData = () => {
+        saveWishlistBook(parseInt(id));
+    };
     const { name, image, author, tags, review, totalPages, rating, category, publisher, yearOfPublishing } = book;   
     return (
         <div className="hero">
@@ -60,17 +58,16 @@ const Book = () => {
                         </tbody>
                     </table>
                     <div className="flex gap-4 py-6">
-                        <div onClick={ () => handleReadData(book)} className="btn hover:bg-white bg-opacity-100 text-base font-bold bg-[#23be0a] hover:border-[#23be0a] hover:text-black text-white px-6">
+                        <button onClick={handleReadData} className="btn hover:bg-white bg-opacity-100 text-base font-bold bg-[#23be0a] hover:border-[#23be0a] hover:text-black text-white px-6">
                             Read
-                        </div>
-                        <div className="btn text-base font-bold bg-[#39c0b5] hover:bg-white hover:border-[#39c0b5] hover:text-black text-white px-6" wishlist={book}>Wishlist</div>
+                        </button>
+                        <button onClick={handleWishlistData} className="btn text-base font-bold bg-[#39c0b5] hover:bg-white hover:border-[#39c0b5] hover:text-black text-white px-6">Wishlist</button>
                     </div>
                 </div>
-                {/* <Outlet/> */}
             </div>
             
         </div>
     );
 };
 
-export default Book;
+export default BookDetails;
