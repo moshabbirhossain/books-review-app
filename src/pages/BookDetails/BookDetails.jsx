@@ -14,7 +14,7 @@ const BookDetails = () => {
     };
     const { name, image, author, tags, review, totalPages, rating, category, publisher, yearOfPublishing } = book;   
     return (
-        <div className="hero overflow-x-hidden">
+        <div className="hero">
             <div className="hero-content items-start flex-col lg:flex-row lg:gap-x-12 lg:items-stretch">
                 <div className="w-full lg:w-1/2 bg-base-200 border-2 rounded-lg">
                     <img src={image} alt="" className="w-1/3 lg:w-1/2 h-60 lg:h-full mx-auto lg:object-contain py-10 lg:p-0"/>
@@ -29,7 +29,7 @@ const BookDetails = () => {
                     <p className="py-6 break-all">
                         <span className="text-lg font-bold break-all">Review :</span> {review}
                     </p>
-                    <div className="tracking-widest flex flex-row items-center gap-2 lg:gap-3">
+                    <div className="lg:tracking-widest flex flex-row items-center gap-2 lg:gap-3">
                         <span className="text-base font-bold">Tag</span>
                         {
                             tags.map((tag)=>(  <span key={tag}className="text-base text-nowrap font-bold px-2 py-1 border bg-gray-100 rounded-full text-[#23be0a]">

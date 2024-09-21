@@ -8,7 +8,7 @@
         "totalPages": 324,
         "rating": 4.9,
         "category": "Fiction",
-        "tags": ["Classic", "Historical"],
+        "tags": ["Classic", "Historical", "Legal"],
         "publisher": "J.B. Lippincott & Co.",
         "yearOfPublishing": 1960
     },
@@ -21,7 +21,7 @@
         "totalPages": 328,
         "rating": 4.7,
         "category": "Dystopian",
-        "tags": ["Political & Science Fiction"],
+        "tags": ["Political Fiction", "Science Fiction"],
         "publisher": "Secker & Warburg",
         "yearOfPublishing": 1949
     },
@@ -34,7 +34,7 @@
         "totalPages": 180,
         "rating": 4.4,
         "category": "Classic",
-        "tags": ["Romance"],
+        "tags": ["American Literature", "Romance"],
         "publisher": "Charles Scribner's Sons",
         "yearOfPublishing": 1925
     },
@@ -60,7 +60,7 @@
         "totalPages": 279,
         "rating": 4.8,
         "category": "Classic",
-        "tags": ["Romance", "Commentary"],
+        "tags": ["Romance", "Social Commentary"],
         "publisher": "T. Egerton, Whitehall",
         "yearOfPublishing": 1813
     },
@@ -86,7 +86,7 @@
         "totalPages": 268,
         "rating": 4.5,
         "category": "Dystopian",
-        "tags": ["Fiction", "Philosophical"],
+        "tags": ["Science Fiction", "Philosophical"],
         "publisher": "Chatto & Windus",
         "yearOfPublishing": 1932
     },

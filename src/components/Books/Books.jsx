@@ -27,9 +27,9 @@ const Books = ( { book }) => {
                 <p className="text-lg">By: <span className="text-lg font-semibold">{author}</span></p>
                 <hr className="border border-dotted my-3"/>
                 <div className="flex justify-between items-center font-medium">
-                    <p className="dark:text-gray-800">{category}</p>
+                    <p className="">{category}</p>
                     <div className="flex justify-between items-center space-x-2">
-                        <p className="dark:text-gray-800">{rating}</p>
+                        <p className="">{rating}</p>
                         <FaRegStar/>
                     </div>
                 </div>

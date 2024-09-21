@@ -16,11 +16,11 @@ const Wishlist = () => {
         }
     }, [list])
     return (
-        <div className='my-10 space-y-6 mx-5 lg:mx-aut0'>
+        <div className='my-4 lg:my-10 space-y-6 mx-5 lg:mx-aut0'>
             {
                 filterlist.map((wishlist) => (
                     <div key={wishlist.id} className="hero">
-                        <div className="flex w-full hero-content items-start flex-col lg:flex-row lg:items-stretch lg:justify-start lg:gap-x-12 border rounded-lg shadow-lg">
+                        <div className="flex w-full hero-content items-start flex-col lg:flex-row lg:items-stretch lg:justify-start lg:gap-x-12 border rounded-lg shadow-lg my-4 lg:my-0">
                             <div className="w-2/3 mx-auto  sm:w-1/4 bg-base-200 border-2 rounded-lg p-6">
                                 <img src={wishlist.image} alt="" className="w-4/5 h-40 lg:w-32 lg:h-40 mx-auto"/>
                             </div>
@@ -28,7 +28,7 @@ const Wishlist = () => {
                                 <h1 className="text-xl font-bold">{wishlist.name}</h1>
                                 <p className="py-3 text-lg font-bold">By : {wishlist.author}</p>
                                 <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-3'>
-                                    <div className="flex flex-row items-start lg:items-center gap-2 lg:gap-3">
+                                    <div className="lg:tracking-widest flex flex-row items-start lg:items-center gap-2 lg:gap-3">
                                         <span className="text-base font-bold">Tag</span>
                                         <div className='flex gap-2 lg:gap-3'>
                                             {

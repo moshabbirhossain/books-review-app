@@ -34,7 +34,7 @@ const Navbar = () => {
                             Listed Books
                         </Link>
 
-                        <Link to={'/pagedToRead'} className="font-bold text-lg">
+                        <Link to={'/PagesToRead'} className="font-bold text-lg">
                             Pages to Read
                         </Link>
                     </ul>

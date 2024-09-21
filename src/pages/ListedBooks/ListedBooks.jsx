@@ -26,7 +26,7 @@ const ListedBooks = () => {
     }
     return (
         <div className="overflow-x-hidden">
-            <div className="border bg-base-200 rounded-2xl text-center text-3xl font-bold py-8 text-black">
+            <div className="border mx-2 lg:mx-0 bg-base-200 rounded-2xl text-center text-3xl font-bold py-8 lg:text-black">
                 Books
             </div>
             <div className="flex justify-center my-12">
