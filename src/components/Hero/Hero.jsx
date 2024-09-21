@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="hero-content  bg-base-200 border-2 rounded-lg flex-col lg:flex-row">
-                <div className="w-1/2 p-16 pr-0">
+                <div className="w-full lg:w-1/2 px-2 lg:p-16 lg:pr-0">
                     <h1 className="text-5xl font-bold pb-12">
                         Books to freshen up your bookshelf
                     </h1>
@@ -14,7 +14,7 @@ const Hero = () => {
                         View The List
                     </Link>
                 </div>
-                <div className="w-1/2 p-16">
+                <div className="w-full lg:w-1/2 p-10 lg:p-16">
                     <img
                         src="https://i.ibb.co.com/b6RpKnj/gray-removebg.png"
                         alt=""

@@ -2,9 +2,9 @@ import { Link, NavLink } from "react-router-dom";
 import "./Nav.css";
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 nav px-32">
-            <div className="navbar-start">
-                <div className="dropdown">
+        <div className="navbar bg-base-100 space-x-8 lg:px-32 z-30 fixed">
+            <div className="navbar-start ">
+                <div className="dropdown space-y-0">
                     <div
                         tabIndex={0}
                         role="button"
@@ -39,7 +39,7 @@ const Navbar = () => {
                         </Link>
                     </ul>
                 </div>
-                <Link to={'/'} className="text-4xl font-bold text-[#23be0a] hover:text-[#20cf05]">Book Vibe</Link>
+                <Link to={'/'} className="text-3xl lg:text-4xl font-bold text-[#23be0a] hover:text-[#20cf05] text-nowrap">Book Vibe</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal items-center gap-4">
@@ -56,9 +56,9 @@ const Navbar = () => {
                     </NavLink>
                 </ul>
             </div>
-            <div className="navbar-end gap-4">
-                <a className="btn bg-[#23be0a] hover:border-[#23be0a] hover:bg-white hover:text-black text-white text-base font-bold">Sign In</a>
-                <a className="btn btn-accent text-white hover:bg-white hover:text-black text-base font-bold">Sign Up</a>
+            <div className=" lg:navbar-end gap-x-2 lg:gap-4">
+                <a className="btn bg-[#23be0a] hover:border-[#23be0a] hover:bg-white hover:text-black text-white text-base font-semibold lg:font-bold px-2 lg:px-3">Sign In</a>
+                <a className="btn bg-[#68dfb7] hover:border-[#68dfb7] px-2 lg:px-3 text-white hover:bg-white hover:text-black text-base font-semibold lg:font-bold">Sign Up</a>
             </div>
         </div>
     );

@@ -8,7 +8,7 @@
         "totalPages": 324,
         "rating": 4.9,
         "category": "Fiction",
-        "tags": ["Classic", "Historical", "Legal"],
+        "tags": ["Classic", "Historical"],
         "publisher": "J.B. Lippincott & Co.",
         "yearOfPublishing": 1960
     },
@@ -21,7 +21,7 @@
         "totalPages": 328,
         "rating": 4.7,
         "category": "Dystopian",
-        "tags": ["Political Fiction", "Science Fiction"],
+        "tags": ["Political & Science Fiction"],
         "publisher": "Secker & Warburg",
         "yearOfPublishing": 1949
     },
@@ -34,7 +34,7 @@
         "totalPages": 180,
         "rating": 4.4,
         "category": "Classic",
-        "tags": ["American Literature", "Romance"],
+        "tags": ["Romance"],
         "publisher": "Charles Scribner's Sons",
         "yearOfPublishing": 1925
     },
@@ -60,7 +60,7 @@
         "totalPages": 279,
         "rating": 4.8,
         "category": "Classic",
-        "tags": ["Romance", "Social Commentary"],
+        "tags": ["Romance", "Commentary"],
         "publisher": "T. Egerton, Whitehall",
         "yearOfPublishing": 1813
     },
@@ -86,7 +86,7 @@
         "totalPages": 268,
         "rating": 4.5,
         "category": "Dystopian",
-        "tags": ["Science Fiction", "Philosophical"],
+        "tags": ["Fiction", "Philosophical"],
         "publisher": "Chatto & Windus",
         "yearOfPublishing": 1932
     },
@@ -111,7 +111,7 @@
         "review": "War and Peace by Leo Tolstoy is an epic novel that intertwines the lives of private and public individuals during the time of the Napoleonic wars and the French invasion of Russia. The novel is known for its masterful depiction of the complex interplay of history and individual lives, as well as its philosophical depth. Tolstoy's exploration of themes such as love, fate, and the nature of power makes War and Peace one of the greatest works of literature ever written. Its rich, detailed narrative and profound insights continue to captivate readers worldwide.",
         "totalPages": 1225,
         "rating": 4.8,
-        "category": "Historical Fiction",
+        "category": "Fiction",
         "tags": ["Epic", "Philosophical"],
         "publisher": "The Russian Messenger",
         "yearOfPublishing": 1869
@@ -124,7 +124,7 @@
         "review": "Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in 1866. The novel is often cited as one of the supreme achievements in literature. The story focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates and executes a plan to kill an unscrupulous pawnbroker for her money. The narrative explores themes of guilt, redemption, and the struggle between good and evil. Dostoevsky's profound psychological insight into his characters and his philosophical exploration of crime and punishment have made this work a timeless classic.",
         "totalPages": 671,
         "rating": 4.6,
-        "category": "Philosophical Fiction",
+        "category": "Fiction",
         "tags": ["Psychological", "Moral Dilemma"],
         "publisher": "The Russian Messenger",
         "yearOfPublishing": 1866
@@ -150,7 +150,7 @@
         "review": "The Picture of Dorian Gray by Oscar Wilde is a philosophical novel that delves into themes of aestheticism, moral duplicity, and the nature of beauty. The novel tells the story of a young man, Dorian Gray, who sells his soul to ensure that his portrait ages while he remains forever young and beautiful. Wilde's novel is noted for its brilliant wit, rich prose, and its chilling exploration of vanity and moral corruption. The Picture of Dorian Gray remains a haunting and thought-provoking read that continues to resonate with readers today.",
         "totalPages": 254,
         "rating": 4.5,
-        "category": "Philosophical Fiction",
+        "category": "Fiction",
         "tags": ["Gothic", "Moral Corruption"],
         "publisher": "Ward, Lock & Co.",
         "yearOfPublishing": 1890

@@ -25,7 +25,7 @@ const ListedBooks = () => {
         setList(sortedData);
     }
     return (
-        <div className="">
+        <div className="overflow-x-hidden">
             <div className="border bg-base-200 rounded-2xl text-center text-3xl font-bold py-8 text-black">
                 Books
             </div>
@@ -56,7 +56,7 @@ const ListedBooks = () => {
                 <Link to={'wishlist'} onClick={() => setTabIndex(1)} className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 text-base font-medium cursor-pointer ${tabIndex===1 ?  'border-2 border-b-0 border-r- rounded-t-lg' : 'border-b-2 text-gray-500'}`}>
                     <span>Wishlist Books</span>
                 </Link>
-                <li className='pt-12 w-3/4 border-b-2'>
+                <li className='pt-12 w-2/6 lg:w-3/4 border-b-2'>
                     <span></span>
                 </li>
             </ul>
