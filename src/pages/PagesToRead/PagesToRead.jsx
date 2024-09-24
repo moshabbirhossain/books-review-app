@@ -30,7 +30,7 @@ const PagesToRead = () => {
   }, []);
 
   return (
-    <div className="flex justify-center mx-0 lg:mx-10">
+    <div className="flex justify-center mx-4 lg:mx-10">
       {readList.length > 0 ? (
         <ResponsiveContainer width="100%" height={550}  className="h-[250px] lg:h-[550px]">
           <BarChart

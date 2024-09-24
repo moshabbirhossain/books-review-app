@@ -1,10 +1,16 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Nav.css";
+import { useState } from "react";
 const Navbar = () => {
+    const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const toggleMobileMenu = () => {
+        setMobileMenuOpen(!isMobileMenuOpen);
+    }
     return (
         <div className="navbar bg-base-100 space-x-8 lg:px-32 z-30 fixed">
             <div className="navbar-start ">
-                <div className="dropdown space-y-0">
+                <div className="dropdown space-y-0" aria-expanded={isMobileMenuOpen ? "true" : "false"}
+                    onClick={toggleMobileMenu}>
                     <div
                         tabIndex={0}
                         role="button"
@@ -25,7 +31,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className={`${isMobileMenuOpen ? 'flex' : 'hidden'} menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow`}>
                         <Link to={'/'} className="font-bold text-lg">
                             Home
                         </Link>
