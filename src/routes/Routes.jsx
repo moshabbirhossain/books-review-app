@@ -11,7 +11,7 @@ export const router = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout />,
-        // errorElement: <ErrorPage/>,
+        errorElement: <ErrorPage/>,
         children: [
             {
                 // tech-1
@@ -25,24 +25,10 @@ export const router = createBrowserRouter([
                 path: '/book/:id',
                 element: <Book />,
                 loader: () => fetch('/book.json'),
-                // children: [
-                //     {
-                //         index: true,
-                //         element: <Read />,
-                //         loader: () => fetch('/book.json'),
-                //     },
-                //     {
-                //         path: 'wishlist',
-                //         element: <Wishlist />,
-                //         loader: () =>  fetch('/book.json'),
-
-                //     },
-                // ],
             },
             {
                 path: "/listedBooks",
                 element: <ListedBooks />,
-                // loader: () => fetch("/book.json"),
                 children: [
                     {
                         index: true,
